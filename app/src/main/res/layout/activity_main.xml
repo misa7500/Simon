@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rmisael.simon.MainActivity">
+
+    <ImageButton
+        android:id="@+id/Azul"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@android:color/holo_blue_light" />
+
+    <ImageButton
+        android:id="@+id/Rojo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:srcCompat="@android:color/holo_red_dark"
+        android:layout_below="@+id/Azul"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/Verde"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Rojo"
+        app:srcCompat="@android:color/holo_green_dark" />
+
+    <ImageButton
+        android:id="@+id/Naranja"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@android:color/holo_orange_dark" />
+
+    <ImageButton
+        android:id="@+id/Blanco_Azul"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/Blanco_Rojo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Azul"
+        app:srcCompat="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/Blanco_Verde"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Rojo"
+        app:srcCompat="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/Blanco_Naranja"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Naranja"
+        app:srcCompat="@android:color/white" />
+</RelativeLayout>
